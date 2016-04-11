@@ -15,34 +15,64 @@
 	<div id="page1" data-role="page">
 	<div data-role="header">
 	<h1>Page Header</h1>
+		<div data-role="navbar">
+	<!--
+		<a href="#" class="ui-btn ui-icon-home ui-btn-icon-left ">Home</a>
+		<h1>Page Header</h1>
+		<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left ">Search</a>
+	-->
+		<ul>
+		<li><a href="#student" class="ui-btn-active">Student</a></li>
+		<li><a href="#faculty">Faculty</a></li>
+		<li><a href="#staff">Staff</a></li>
+		</ul>
+		</div>
 	</div>
-	<div class="ui-content" role="main">
-	<p>This is the content on page 1.</p>
-	<p><a href="#page2">Go to the second page</a></p>
-	</div>
+
 	<div data-role="footer">
 	<h1>Page One Footer</h1>
 	</div>
 	</div>
 	
 	
-	<div id="page2" data-role="page">
-	<div data-role="header">
-	<h1>Page Header - Page 2</h1>
-	</div>
-	<div class="ui-content" role="main">
-	<p>This is the content on page 1.</p>
-	<p><a href="#page1">Go to the first page</a></p>
-	</div>
-	<div data-role="footer">
-	<h1>Page Two Footer</h1>	
-	</div>
-	
-	
+	<div id="student" data-role="page">
+		<div data-role="header">
+		<h1>Student Page Header</h1>
+		</div>
+		<div class="ui-content" role="main">
+		<p>This is the content on the student page.</p>
+		<p><a href="#page1">Go to the main page</a></p>
+		</div>
+		<div data-role="footer">
+		<h1>Student Page Footer</h1>	
+		</div>	
 	</div>
 
+		<div id="faculty" data-role="page">
+		<div data-role="header">
+		<h1>Faculty Page Header</h1>
+		</div>
+		<div class="ui-content" role="main">
+		<p>This is the content on the faculty page.</p>
+		<p><a href="#page1">Go to the main page</a></p>
+		</div>
+		<div data-role="footer">
+		<h1>Faculty Page Footer</h1>	
+		</div>	
+	</div>
 
-
+	<div id="staff" data-role="page">
+		<div data-role="header">
+		<h1>Staff Page Header</h1>
+		</div>
+		<div class="ui-content" role="main">
+		<p>This is the content on the staff page.</p>
+		<p><a href="#page1">Go to the main page</a></p>
+		</div>
+		<div data-role="footer">
+		<h1>Staff Page Footer</h1>	
+		</div>	
+	</div>
 
 </body>
 </html>
